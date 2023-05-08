@@ -24,16 +24,16 @@ function init() {
   volumeNum.addEventListener('change', () => {
     let volumeValue = volumeNum.value;
     if (volumeValue == 0){
-      volumePhoto.src = 'assets/icons/volume-level-0.svg'
+      volumePhoto.src = 'assets/icons/volume-level-0.svg';
     }
     else if (volumeValue < 33){
-      volumePhoto.src = 'assets/icons/volume-level-1.svg'
+      volumePhoto.src = 'assets/icons/volume-level-1.svg';
     }
     else if (volumeValue < 67){
-      volumePhoto.src = 'assets/icons/volume-level-2.svg'
+      volumePhoto.src = 'assets/icons/volume-level-2.svg';
     }
     else {
-      volumePhoto.src = 'assets/icons/volume-level-3.svg'
+      volumePhoto.src = 'assets/icons/volume-level-3.svg';
     }
   })
 
